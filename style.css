@@ -1,0 +1,134 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b0173f;
+    padding: 15px 50px;
+}
+
+.logo img {
+    width: 120px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    color: #b0173f;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #333;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #b0173f;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* About Section */
+.about {
+    padding: 50px;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.about h2 {
+    color: #b0173f;
+}
+
+/* Services Section */
+.services {
+    padding: 50px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.service-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.service-box img {
+    width: 200px;
+    border-radius: 5px;
+}
+
+/* Testimonials */
+.testimonials {
+    padding: 50px;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.testimonial-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px auto;
+    width: 50%;
+}
+
+/* Contact */
+.contact {
+    padding: 50px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.contact h2 {
+    color: #b0173f;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #b0173f;
+    color: white;
+}
